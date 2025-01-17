@@ -5,7 +5,7 @@
 #include "glm/glm.hpp"
 #include "glm/gtc/matrix_transform.hpp"
 
-#include "Helper.h"
+#include "Math.h"
 
 // Types of camera movement
 enum Camera_Movement {

@@ -10,7 +10,7 @@
 #include "glm/gtc/matrix_transform.hpp"
 #include "glm/gtc/type_ptr.hpp"
 
-#include "Helper.h"
+#include "Math.h"
 #include "Skybox.h"
 #include "Camera.h"
 #include "GameObject.h"

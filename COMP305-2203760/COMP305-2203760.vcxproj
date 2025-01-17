@@ -139,7 +139,7 @@
     <ClCompile Include="Planet.cpp" />
     <ClCompile Include="GameObject.cpp" />
     <ClCompile Include="glad.c" />
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Main.cpp" />
     <ClCompile Include="Mesh.cpp" />
     <ClCompile Include="Model.cpp" />
     <ClCompile Include="Ring.cpp" />
@@ -165,7 +165,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Camera.h" />
-    <ClInclude Include="Helper.h" />
+    <ClInclude Include="Math.h" />
     <ClInclude Include="Planet.h" />
     <ClInclude Include="GameObject.h" />
     <ClInclude Include="Mesh.h" />

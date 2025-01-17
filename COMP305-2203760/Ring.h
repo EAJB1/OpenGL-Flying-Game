@@ -2,7 +2,7 @@
 
 #include <tuple>
 
-#include "Helper.h"
+#include "Math.h"
 #include "GameObject.h"
 
 const std::tuple<float, float> SPAWN_RADIUS(80.0f, 110.0f);

@@ -1,6 +1,6 @@
 #pragma once
 
-#include "Helper.h"
+#include "Math.h"
 #include "Sphere.h"
 #include "Rock.h"
 
