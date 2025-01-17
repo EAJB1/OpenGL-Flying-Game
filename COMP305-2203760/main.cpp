@@ -31,7 +31,7 @@ void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 #define FULL_SCREEN false
 #define MAXIMISED true
 #define WIREFRAME false
-#define NEAR 0.1f // Distance to near clipping plane
+#define NEAR 0.01f // Distance to near clipping plane
 #define FAR 4000.0f // Distance to far clipping plane
 
 // Resolution of primary monitor
@@ -249,7 +249,7 @@ GLFWwindow* Start()
 	}
 
 	// The window object holds all window data.
-	GLFWwindow* window = glfwCreateWindow(monitorWidth, monitorHeight, "2203760", FULL_SCREEN ? glfwGetPrimaryMonitor() : NULL, NULL);
+	GLFWwindow* window = glfwCreateWindow(monitorWidth, monitorHeight, "Flying Game", FULL_SCREEN ? glfwGetPrimaryMonitor() : NULL, NULL);
 
 	if (window == NULL)
 	{
@@ -368,11 +368,6 @@ void processInput(GLFWwindow* window)
 		camera.ProcessKeyboard(UP);
 	if (glfwGetKey(window, GLFW_KEY_Q) == GLFW_PRESS)
 		camera.ProcessKeyboard(DOWN);
-	
-	/*if (glfwGetKey(window, GLFW_KEY_LEFT_SHIFT) == GLFW_PRESS)
-		camera.Boost = true;
-	if (glfwGetKey(window, GLFW_KEY_LEFT_SHIFT) == GLFW_RELEASE)
-		camera.Boost = false;*/
 }
 
 /// <summary>

@@ -38,9 +38,9 @@ bool Ring::Collision(glm::vec3 lastPoint, glm::vec3 currentPoint)
 	return true;
 }
 
-void Ring::SpawnRing(Model* _model, Shader* _shader)
+void Ring::SpawnRing(Model* model, Shader* shader)
 {
-	Ring* newRing = new Ring(_model, _shader);
+	Ring* newRing = new Ring(model, shader);
 	newRing->scale = 5.0f * vec3One;
 
 	newRing->RandomPositionInForward(currentRing->position, currentRing->rotation);

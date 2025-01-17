@@ -21,7 +21,7 @@ public:
 
 	bool Collision(glm::vec3 lastPoint, glm::vec3 currentPoint);
 
-	static void SpawnRing(Model* _model, Shader* _shader);
+	static void SpawnRing(Model* model, Shader* shader);
 
 	void RandomPositionInForward(glm::vec3 origin, glm::vec3 lastRotation);
 
