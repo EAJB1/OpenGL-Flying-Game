@@ -1,4 +1,4 @@
-# Computing artefact COMP305-2203760
+# Computing Artefact
 
 # Assets
 All assets fall under the license CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
