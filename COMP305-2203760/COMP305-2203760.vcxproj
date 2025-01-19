@@ -71,8 +71,8 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>$(SolutionDir)\Libraries\glfw-3.4\include;$(SolutionDir)\Libraries\glad;$(SolutionDir)\Libraries\assimp\include;$(IncludePath)</IncludePath>
-    <LibraryPath>$(SolutionDir)\Libraries\glfw-3.4\build;$(SolutionDir)\Libraries\assimp\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(SolutionDir)\Dependencies\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)\Dependencies\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
