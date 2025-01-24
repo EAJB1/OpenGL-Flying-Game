@@ -1,4 +1,5 @@
-# Computing Artefact
+# OpenGL Flying Game
+Falmouth University - 3rd Year Computing Artefact
 
 # Assets
 All assets fall under the license CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
