@@ -1,5 +1,7 @@
 # OpenGL Flying Game
 Falmouth University - 3rd Year Computing Artefact
+![artefact](https://github.com/user-attachments/assets/01af3c1c-27a3-4f4e-af84-688055ae98cd)
+![gate](https://github.com/user-attachments/assets/5539ad37-779b-4a35-b513-c1b35131be9b)
 
 # Assets
 All assets fall under the license CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
